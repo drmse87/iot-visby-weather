@@ -1,0 +1,90 @@
+{
+    "@context": "https://www.w3.org/2019/wot/td/v1",
+    "@type": ["WeatherStation"],
+    "id": "https://iot.sommarvind.tech",
+    "base": "https://iot.sommarvind.tech",
+    "support": "dm222ai@student.lnu.se",
+    "title": "Visby Weather - an IoT project at Linnaeus University",
+    "description": "IoT weather station built for the course The web as an application platform (1DV527) at Linnaeus University spring term 2021",
+    "properties": {
+        "temperature" : {
+            "title": "Temperature",
+            "description": "The current temperature in Visby",
+            "type": "string",
+            "forms": [{"href": "https://iot.sommarvind.tech/api/v1/weatherreports/temperature"}],
+            "unit": "celsius"
+        },
+        "humidity" : {
+            "title": "Humidity",
+            "description": "The current humidity in Visby",
+            "type": "string",
+            "forms": [{"href": "https://iot.sommarvind.tech/api/v1/weatherreports/humidity"}],
+            "unit": "percentage"
+        },
+        "uvIndex" : {
+            "title": "UV Index",
+            "description": "The current UV Index in Visby",
+            "type": "string",
+            "forms": [{"href": "https://iot.sommarvind.tech/api/v1/weatherreports/uv"}],
+            "unit": "uvIndex"
+        },
+        "latestWeatherReport" : {
+            "title": "Latest weather report",
+            "description": "The latest weather report from Visby",
+            "type": "string",
+            "forms": [{"href": "https://iot.sommarvind.tech/api/v1/weatherreports/latest"}]
+        }
+    },
+    "events" : {
+        "raining" : {
+            "data": {"type": "string"},
+            "forms": [{
+                "href": "https://iot.sommarvind.tech/api/v1/weatherreports/raining"
+            }]
+        },
+        "light" : {
+            "data": {"type": "string"},
+            "forms": [{
+                "href": "https://iot.sommarvind.tech/api/v1/weatherreports/light"
+            }]
+        }
+    },
+    "links": [
+        {
+            "rel": "self",
+            "href": "https://iot.sommarvind.tech/api/v1"
+        },
+        {
+            "rel": "clientApplication",
+            "href": "https://iot.sommarvind.tech"
+        },
+        {
+            "rel": "temperature",
+            "href": "https://iot.sommarvind.tech/api/v1/weatherreports/temperature"
+        },
+        {
+            "rel": "humidity",
+            "href": "https://iot.sommarvind.tech/api/v1/weatherreports/humidity"
+        },
+        {
+            "rel": "uvIndex",
+            "href": "https://iot.sommarvind.tech/api/v1/weatherreports/uv"
+        },
+        {
+            "rel": "rainingEvent",
+            "href": "https://iot.sommarvind.tech/api/v1/weatherreports/raining"
+        },
+        {
+            "rel": "lightEvent",
+            "href": "https://iot.sommarvind.tech/api/v1/weatherreports/light"
+        },
+        {
+            "rel": "latestWeatherReport",
+            "href": "https://iot.sommarvind.tech/api/v1/weatherreports/latest"
+        },
+        {
+            "rel": "allWeatherReports",
+            "href": "https://iot.sommarvind.tech/api/v1/weatherreports"
+        }
+]
+}
