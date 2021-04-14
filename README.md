@@ -18,7 +18,7 @@ I have built a simple IoT weather station, which is up and running as of April 2
 * [Bootstrap.css](https://getbootstrap.com/)
 
 ## How it works
-Every five minutes, the Arduino Uno reads the sensor values and POSTs them using the ArduinoJson library to my ASP.NET Core WebAPI/SQLite DB (this endpoint is protected with an API key to prevent unauthorized access). The sensor readings are then presented in a React.js/Chart.js/Bootstrap.css frontend.
+Every five minutes, the Arduino Uno reads the sensor values and POSTs them using the powerful [ArduinoJson](https://arduinojson.org/) library to my ASP.NET Core WebAPI/SQLite DB (this endpoint is protected with an API key to prevent unauthorized access). The sensor readings are then presented in a React.js/Chart.js/Bootstrap.css frontend.
 
 ## Lessons learned
 Building a weather station has made me realize two things: first of all, that it is hard to measure temperature, which requires shade, and UV, which requires sun, from the same location. Secondly, the rain sensor is a bit "dumb" in the sense that it will report that it is raining for as long as it remains wet. This means that it will accurately report when it rains, but inaccurately report when it has stopped raining (it takes some time for the sensor to dry). 
