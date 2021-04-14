@@ -1,5 +1,5 @@
 # Visby Weather
-I have built a simple IoT weather station, which is [up and running](https://iot.sommarvind.tech/) at least as of April 2021, there is also a [short YouTube video describing how it was built](https://youtube.com/watch?v=0aYAbL72kJo).
+I have built a simple IoT weather station, which is [up and running as of April 2021](https://iot.sommarvind.tech/), there is also a [short YouTube video describing how it was built](https://youtube.com/watch?v=0aYAbL72kJo).
 
 # Technical details
 ## Hardware
