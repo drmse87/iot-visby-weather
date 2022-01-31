@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace frontend.Data
+namespace iot_visby_weather.Data
 {
     public class ApplicationDbContext : DbContext
     {

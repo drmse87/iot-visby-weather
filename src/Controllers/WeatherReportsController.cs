@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
 using System.IO;
 
-namespace frontend.Controllers
+namespace iot_visby_weather.Controllers
 {
     [ApiController]
     [Route("api/v1/[controller]")]

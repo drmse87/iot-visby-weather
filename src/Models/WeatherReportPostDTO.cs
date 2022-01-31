@@ -1,6 +1,6 @@
 using System;
 
-namespace frontend.Models
+namespace iot_visby_weather.Models
 {
     public class WeatherReportPostDTO
     {

@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace frontend.Models
+namespace iot_visby_weather.Models
 {
     public class WeatherReport
     {
