@@ -1,5 +1,5 @@
 {
-	"name": "iot_visby_weather",
+	"name": "simple_iot_weather_station",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {

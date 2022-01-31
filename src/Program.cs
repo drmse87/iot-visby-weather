@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace iot_visby_weather
+namespace simple_iot_weather_station
 {
     public class Program
     {

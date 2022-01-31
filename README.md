@@ -1,4 +1,4 @@
-# Visby Weather
+# Simple IoT Weather Station
 
 Simple IoT weather station built with Arduino Uno and ASP.NET Core and React, [demonstrated here](https://youtube.com/watch?v=0aYAbL72kJo).
 

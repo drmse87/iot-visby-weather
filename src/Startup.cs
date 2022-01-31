@@ -10,7 +10,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Localization;
 using System.Globalization;
 
-namespace iot_visby_weather
+namespace simple_iot_weather_station
 {
     public class Startup
     {

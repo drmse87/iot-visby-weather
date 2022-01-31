@@ -1,6 +1,6 @@
 {
-	"short_name": "iot_visby_weather",
-	"name": "iot_visby_weather",
+	"short_name": "simple_iot_weather_station",
+	"name": "simple_iot_weather_station",
 	"icons": [
 		{
 			"src": "favicon.ico",
